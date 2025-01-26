@@ -5,6 +5,6 @@ services:
     image: vishwacloudlab/stackdemo:v1
     build: .
     ports:
-      - "8007:8000"
+      - "8007-8010:8000"
   redis:
     image: redis:alpine
