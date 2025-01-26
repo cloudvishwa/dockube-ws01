@@ -1,0 +1,10 @@
+version: '3.5'
+
+services:
+  web:
+    image: vishwacloudlab/stackdemo:v1
+    build: .
+    ports:
+      - "8007:8000"
+  redis:
+    image: redis:alpine
